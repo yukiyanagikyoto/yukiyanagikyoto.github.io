@@ -1,57 +1,49 @@
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介 | 就活用ホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>自己紹介</h1>
+    </header>
 
-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
+    <main>
+        <section class="introduction">
+            <img src="img/profile.jpg" alt="プロフィール写真" class="profile-photo">
+            <h2>氏名: [あなたの名前]</h2>
+            <p>こんにちは。私は[簡単な自己紹介文、例：大学名、専攻、目標など]です。</p>
+        </section>
 
-.introduction {
-    text-align: center;
-    padding: 2rem;
-}
+        <section class="details">
+            <h2>経歴</h2>
+            <ul>
+                <li>大学在学中の経験: [例：リーダーシップ、学業成果]</li>
+                <li>アルバイト経験: [例：ジーユーでの接客業務]</li>
+                <li>インターンシップ: [例：みずほ銀行グローバルマーケッツ]</li>
+            </ul>
+        </section>
 
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-}
+        <section class="goals">
+            <h2>目標</h2>
+            <p>私の20代の目標は「社会人として信頼されること」です。具体的には、[信頼を築くために行動する計画など]。</p>
+        </section>
 
-.details, .goals, .contact {
-    padding: 1.5rem;
-    margin: 1rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        <section class="contact">
+            <h2>お問い合わせ</h2>
+            <p>何かご質問がありましたら、下記の連絡先までご連絡ください。</p>
+            <ul>
+                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>電話番号: [電話番号]</li>
+            </ul>
+        </section>
+    </main>
 
-h2 {
-    color: #0056b3;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-}
-
-
+    <footer>
+        <p>&copy; 2025 [あなたの名前]</p>
+    </footer>
+</body>
+</html>
